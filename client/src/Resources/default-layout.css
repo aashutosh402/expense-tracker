@@ -1,0 +1,51 @@
+.layout{
+    margin: 0 100px;
+}
+.header{
+    /* background-image: linear-gradient(to right, #ff512f, #f09819); */
+    /* background-image: linear-gradient(to right, #2c3e50, #4ca1af); */
+    /* background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% ); */
+    background-image: linear-gradient(to right, #26e1bc, #2e0e4d);
+
+    padding: 20px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.74);
+}
+.logo{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.742);
+    margin: 0 !important;
+cursor: pointer;
+}
+.username{
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.737);
+}
+
+.content{
+    height: 85vh;
+    box-shadow: 0 0 2px gray;
+    margin-top: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.ant-spin-dot-item{
+   background-color: yellow;
+}
+
+@media screen and (max-width:700px){
+    .layout{
+        margin: 0 15px;
+    }
+}
